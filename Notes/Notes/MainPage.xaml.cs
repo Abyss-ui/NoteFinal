@@ -25,6 +25,7 @@ namespace Notes
 
         void OnDeleteButtonClicked(object sender, EventArgs e)
         {
+            //Hello
             if (File.Exists(_fileName))
             {
                 File.Delete(_fileName);
